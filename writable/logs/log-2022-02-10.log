@@ -1,0 +1,390 @@
+CRITICAL - 2022-02-10 02:45:58 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/tabungan-santri/app/Views/nasabah/index.php(62): number_format()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/View/View.php(214): include('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(25): view()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->index()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 02:46:06 --> Duplicate entry '8m1ALrSxvUUQuz+lru0swg==' for key 'NIS'
+CRITICAL - 2022-02-10 02:46:06 --> Duplicate entry '8m1ALrSxvUUQuz+lru0swg==' for key 'NIS'
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_nasabah.php(27): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(81): App\Models\m_nasabah->simpan()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->simpan()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+CRITICAL - 2022-02-10 02:46:18 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/tabungan-santri/app/Views/nasabah/index.php(62): number_format()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/View/View.php(214): include('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(25): view()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->index()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+CRITICAL - 2022-02-10 02:49:16 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2022-02-10 03:01:17 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/tabungan-santri/app/Views/nasabah/index.php(62): number_format()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/View/View.php(214): include('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(25): view()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->index()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 03:01:27 --> Duplicate entry '8999' for key 'NIS'
+CRITICAL - 2022-02-10 03:01:27 --> Duplicate entry '8999' for key 'NIS'
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_nasabah.php(27): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(82): App\Models\m_nasabah->simpan()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->simpan()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 03:01:51 --> Duplicate entry '8999' for key 'NIS'
+CRITICAL - 2022-02-10 03:01:51 --> Duplicate entry '8999' for key 'NIS'
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_nasabah.php(27): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(82): App\Models\m_nasabah->simpan()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->simpan()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 03:01:57 --> Duplicate entry '8999' for key 'NIS'
+CRITICAL - 2022-02-10 03:01:57 --> Duplicate entry '8999' for key 'NIS'
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_nasabah.php(27): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(82): App\Models\m_nasabah->simpan()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->simpan()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+CRITICAL - 2022-02-10 03:02:07 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/tabungan-santri/app/Views/nasabah/index.php(62): number_format()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/View/View.php(214): include('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(25): view()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->index()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+CRITICAL - 2022-02-10 03:02:20 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/tabungan-santri/app/Views/nasabah/index.php(62): number_format()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/View/View.php(214): include('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(25): view()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->index()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+CRITICAL - 2022-02-10 03:02:37 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/tabungan-santri/app/Views/nasabah/index.php(62): number_format()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/View/View.php(214): include('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(25): view()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->index()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 03:54:56 --> Duplicate entry 'N0jmoayaLR/ybHGC41Hr1Q==' for key 'NIS'
+CRITICAL - 2022-02-10 03:54:56 --> Duplicate entry 'N0jmoayaLR/ybHGC41Hr1Q==' for key 'NIS'
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_nasabah.php(39): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(205): App\Models\m_nasabah->edit()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->update()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 03:55:16 --> Duplicate entry 'N0jmoayaLR/ybHGC41Hr1Q==' for key 'NIS'
+CRITICAL - 2022-02-10 03:55:16 --> Duplicate entry 'N0jmoayaLR/ybHGC41Hr1Q==' for key 'NIS'
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_nasabah.php(39): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(205): App\Models\m_nasabah->edit()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->update()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 03:55:39 --> Duplicate entry 'BbNs7ChWB3sOJcDTfZQ75g==' for key 'NIS'
+CRITICAL - 2022-02-10 03:55:39 --> Duplicate entry 'BbNs7ChWB3sOJcDTfZQ75g==' for key 'NIS'
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_nasabah.php(39): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(205): App\Models\m_nasabah->edit()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->update()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 03:56:49 --> Duplicate entry 'HTHMF+urGvBoSWc5O1iyxw==' for key 'NIS'
+CRITICAL - 2022-02-10 03:56:49 --> Duplicate entry 'HTHMF+urGvBoSWc5O1iyxw==' for key 'NIS'
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_nasabah.php(39): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(205): App\Models\m_nasabah->edit()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->update()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 03:57:27 --> Duplicate entry 'HTHMF+urGvBoSWc5O1iyxw==' for key 'NIS'
+CRITICAL - 2022-02-10 03:57:27 --> Duplicate entry 'HTHMF+urGvBoSWc5O1iyxw==' for key 'NIS'
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_nasabah.php(39): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(205): App\Models\m_nasabah->edit()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->update()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 03:59:25 --> Duplicate entry 'N0jmoayaLR/ybHGC41Hr1Q==' for key 'NIS'
+CRITICAL - 2022-02-10 03:59:25 --> Duplicate entry 'N0jmoayaLR/ybHGC41Hr1Q==' for key 'NIS'
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_nasabah.php(39): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(205): App\Models\m_nasabah->edit()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->update()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 04:04:25 --> Unknown column 'nasabahId' in 'where clause'
+CRITICAL - 2022-02-10 04:04:25 --> Unknown column 'nasabahId' in 'where clause'
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_nasabah.php(39): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(205): App\Models\m_nasabah->edit()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->update()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 04:05:29 --> Unknown column 'nasabahId' in 'where clause'
+CRITICAL - 2022-02-10 04:05:29 --> Unknown column 'nasabahId' in 'where clause'
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_nasabah.php(39): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(205): App\Models\m_nasabah->edit()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->update()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 04:08:13 --> Unknown column 'nasabahId' in 'where clause'
+CRITICAL - 2022-02-10 04:08:13 --> Unknown column 'nasabahId' in 'where clause'
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_nasabah.php(39): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(205): App\Models\m_nasabah->edit()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->update()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 04:09:18 --> Unknown column 'nasabahId' in 'where clause'
+CRITICAL - 2022-02-10 04:09:18 --> Unknown column 'nasabahId' in 'where clause'
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_nasabah.php(39): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(205): App\Models\m_nasabah->edit()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->update()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 04:09:46 --> Unknown column 'nasabahId' in 'where clause'
+CRITICAL - 2022-02-10 04:09:46 --> Unknown column 'nasabahId' in 'where clause'
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_nasabah.php(39): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(205): App\Models\m_nasabah->edit()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->update()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 04:10:00 --> Unknown column 'nasabahId' in 'where clause'
+CRITICAL - 2022-02-10 04:10:00 --> Unknown column 'nasabahId' in 'where clause'
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_nasabah.php(39): CodeIgniter\Database\BaseBuilder->update()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Nasabah.php(205): App\Models\m_nasabah->edit()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->update()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 04:14:15 --> Table 'db_saver.view_penyetoran' doesn't exist
+CRITICAL - 2022-02-10 04:14:15 --> Table 'db_saver.view_penyetoran' doesn't exist
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_penyetoran.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Penyetoran.php(19): App\Models\m_penyetoran->getAllData()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\penyetoran->index()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 04:14:34 --> Table 'db_saver.view_admin' doesn't exist
+CRITICAL - 2022-02-10 04:14:34 --> Table 'db_saver.view_admin' doesn't exist
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_admin.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Admin.php(20): App\Models\m_admin->getAllData()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->index()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2022-02-10 04:14:49 --> Table 'db_saver.view_penyetoran' doesn't exist
+CRITICAL - 2022-02-10 04:14:49 --> Table 'db_saver.view_penyetoran' doesn't exist
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_penyetoran.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Penyetoran.php(19): App\Models\m_penyetoran->getAllData()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\penyetoran->index()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+CRITICAL - 2022-02-10 04:15:00 --> Undefined offset: 0
+#0 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Penyetoran.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+ERROR - 2022-02-10 04:15:59 --> Table 'db_saver.view_penyetoran' doesn't exist
+CRITICAL - 2022-02-10 04:15:59 --> Table 'db_saver.view_penyetoran' doesn't exist
+#0 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/tabungan-santri/app/Models/m_penyetoran.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Penyetoran.php(19): App\Models\m_penyetoran->getAllData()
+#6 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\penyetoran->index()
+#7 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+CRITICAL - 2022-02-10 04:16:10 --> Undefined offset: 0
+#0 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Penyetoran.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2022-02-10 04:19:05 --> Undefined offset: 0
+#0 /opt/lampp/htdocs/tabungan-santri/app/Controllers/Penyetoran.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#2 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/tabungan-santri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/tabungan-santri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}

@@ -1,0 +1,283 @@
+CRITICAL - 2021-12-16 09:21:57 --> Trying to get property 'adminId' of non-object
+#0 /opt/lampp/htdocs/CI4APP/app/Views/admin/index.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CI4APP/app/Controllers/Admin.php(26): view()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->index()
+#6 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#10 {main}
+CRITICAL - 2021-12-16 09:30:59 --> Trying to get property 'suratId' of non-object
+#0 /opt/lampp/htdocs/CI4APP/app/Views/admin/index.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CI4APP/app/Controllers/Admin.php(26): view()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->index()
+#6 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#10 {main}
+CRITICAL - 2021-12-16 09:31:41 --> Trying to get property 'adminId' of non-object
+#0 /opt/lampp/htdocs/CI4APP/app/Views/admin/index.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CI4APP/app/Controllers/Admin.php(26): view()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->index()
+#6 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#10 {main}
+CRITICAL - 2021-12-16 09:34:02 --> Call to undefined method App\Models\m_admin::preview
+#0 /opt/lampp/htdocs/CI4APP/app/Controllers/Admin.php(157): CodeIgniter\Model->__call()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->preview()
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-12-16 09:35:45 --> Invalid file: templates/v_head.php
+#0 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/CI4APP/app/Controllers/Admin.php(170): view()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->preview()
+#4 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#8 {main}
+CRITICAL - 2021-12-16 09:35:59 --> Trying to get property 'adminId' of non-object
+#0 /opt/lampp/htdocs/CI4APP/app/Views/admin/index.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CI4APP/app/Controllers/Admin.php(26): view()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->index()
+#6 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#10 {main}
+CRITICAL - 2021-12-16 09:36:27 --> Invalid file: templates/v_head.php
+#0 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/CI4APP/app/Controllers/Admin.php(170): view()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->preview()
+#4 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#8 {main}
+CRITICAL - 2021-12-16 09:37:02 --> Invalid file: templates/v_head.php
+#0 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/CI4APP/app/Controllers/Admin.php(170): view()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->preview()
+#4 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#8 {main}
+CRITICAL - 2021-12-16 09:37:30 --> Invalid file: Admin/preview.php
+#0 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/CI4APP/app/Controllers/Admin.php(173): view()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->preview()
+#4 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#8 {main}
+CRITICAL - 2021-12-16 09:38:14 --> Invalid file: Admin/preview.php
+#0 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/CI4APP/app/Controllers/Admin.php(173): view()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->preview()
+#4 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#8 {main}
+CRITICAL - 2021-12-16 09:40:46 --> Invalid file: Admin/preview.php
+#0 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/CI4APP/app/Controllers/Admin.php(173): view()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->preview()
+#4 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#8 {main}
+CRITICAL - 2021-12-16 10:21:36 --> Encrypter needs a starter key.
+#0 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Encryption/Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Config/Services.php(215): CodeIgniter\Encryption\Encryption->initialize()
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::encrypter()
+#3 /opt/lampp/htdocs/CI4APP/app/Controllers/Auth.php(16): CodeIgniter\Config\BaseService::__callStatic()
+#4 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Auth->__construct()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2021-12-16 11:20:00 --> Cannot declare class App\Controllers\Login, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-16 11:20:18 --> Cannot declare class App\Controllers\Login, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-16 13:42:04 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Model.php on line 210
+#0 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#2 /opt/lampp/htdocs/CI4APP/app/Controllers/Auth.php(39): CodeIgniter\BaseModel->first()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->auth()
+#4 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#8 {main}
+CRITICAL - 2021-12-16 13:42:09 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Model.php on line 210
+#0 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#2 /opt/lampp/htdocs/CI4APP/app/Controllers/Auth.php(39): CodeIgniter\BaseModel->first()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->auth()
+#4 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#8 {main}
+CRITICAL - 2021-12-16 13:43:15 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Model.php on line 210
+#0 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#2 /opt/lampp/htdocs/CI4APP/app/Controllers/Auth.php(39): CodeIgniter\BaseModel->first()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->auth()
+#4 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#8 {main}
+CRITICAL - 2021-12-16 13:47:06 --> Call to undefined method App\Models\m_admin::get_data
+#0 /opt/lampp/htdocs/CI4APP/app/Controllers/Auth.php(39): CodeIgniter\Model->__call()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->auth()
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-12-16 14:00:18 --> Trying to access array offset on value of type null
+#0 /opt/lampp/htdocs/CI4APP/app/Controllers/Auth.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->auth()
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-12-16 14:00:49 --> Trying to access array offset on value of type null
+#0 /opt/lampp/htdocs/CI4APP/app/Controllers/Auth.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->auth()
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-12-16 14:02:13 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-12-16 14:03:59 --> Trying to access array offset on value of type null
+#0 /opt/lampp/htdocs/CI4APP/app/Controllers/Auth.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->auth()
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-12-16 14:06:00 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-12-16 14:06:04 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-12-16 14:13:09 --> Trying to access array offset on value of type null
+#0 /opt/lampp/htdocs/CI4APP/app/Controllers/Auth.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->auth()
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+ERROR - 2021-12-16 14:42:02 --> Unknown column 'userId' in 'field list'
+CRITICAL - 2021-12-16 14:42:02 --> Unknown column 'userId' in 'field list'
+#0 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CI4APP/app/Models/m_admin.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/CI4APP/app/Controllers/Admin.php(94): App\Models\m_admin->simpan()
+#6 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->simpan()
+#7 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+ERROR - 2021-12-16 15:17:27 --> Unknown column 'userId' in 'field list'
+CRITICAL - 2021-12-16 15:17:27 --> Unknown column 'userId' in 'field list'
+#0 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CI4APP/app/Models/m_admin.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/CI4APP/app/Controllers/Admin.php(94): App\Models\m_admin->simpan()
+#6 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->simpan()
+#7 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#11 {main}
+CRITICAL - 2021-12-16 16:09:39 --> syntax error, unexpected '$session' (T_VARIABLE)
+#0 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-12-16 16:09:45 --> syntax error, unexpected '$session' (T_VARIABLE)
+#0 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-12-16 16:36:56 --> Undefined variable: tot_nasabah
+#0 /opt/lampp/htdocs/CI4APP/app/Views/home/index.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CI4APP/app/Controllers/Home.php(27): view()
+#5 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CI4APP/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CI4APP/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/opt/lampp/htdo...')
+#10 {main}

@@ -1,0 +1,12 @@
+CRITICAL - 2022-01-01 13:08:07 --> Undefined index: NIS
+#0 C:\xampp\htdocs\tabungan-santri\app\Views\admin\preview.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/preview', Array, true)
+#4 C:\xampp\htdocs\tabungan-santri\app\Controllers\Admin.php(172): view('admin/preview', Array)
+#5 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\admin->preview('1')
+#6 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#7 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tabungan-santri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

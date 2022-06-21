@@ -1,0 +1,250 @@
+ERROR - 2021-12-24 01:16:08 --> Column 'setorId' cannot be null
+ERROR - 2021-12-24 01:16:16 --> Column 'setorId' cannot be null
+ERROR - 2021-12-24 01:16:58 --> Column 'setorId' cannot be null
+ERROR - 2021-12-24 01:17:04 --> Column 'setorId' cannot be null
+ERROR - 2021-12-24 01:17:16 --> Column 'setorId' cannot be null
+CRITICAL - 2021-12-24 01:17:49 --> Call to a member function getAllData() on null
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->edit('3')
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\nasabah))
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-24 06:11:26 --> Column 'setorId' cannot be null
+CRITICAL - 2021-12-24 06:11:26 --> Column 'setorId' cannot be null
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_penyetoran.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Penyetoran.php(51): App\Models\m_penyetoran->simpan(Array)
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 06:12:38 --> Column 'setorId' cannot be null
+CRITICAL - 2021-12-24 06:12:38 --> Column 'setorId' cannot be null
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_penyetoran.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Penyetoran.php(51): App\Models\m_penyetoran->simpan(Array)
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 06:19:19 --> Column 'setorId' cannot be null
+CRITICAL - 2021-12-24 06:19:19 --> Column 'setorId' cannot be null
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_penyetoran.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Penyetoran.php(51): App\Models\m_penyetoran->simpan(Array)
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 06:22:49 --> Column 'setorId' cannot be null
+CRITICAL - 2021-12-24 06:22:49 --> Column 'setorId' cannot be null
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_penyetoran.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Penyetoran.php(51): App\Models\m_penyetoran->simpan(Array)
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-24 06:22:51 --> Undefined variable: nama
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Views/penyetoran/tambah.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/manuruli/...', 20, Array)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/manuruli/...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('penyetoran/tamb...', Array, true)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Penyetoran.php(36): view('penyetoran/tamb...', Array)
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\penyetoran->tambah()
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-24 06:23:36 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-12-24 06:23:36 --> Duplicate entry '0' for key 'PRIMARY'
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_penyetoran.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Penyetoran.php(51): App\Models\m_penyetoran->simpan(Array)
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 06:24:41 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-12-24 06:24:41 --> Duplicate entry '0' for key 'PRIMARY'
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_penyetoran.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Penyetoran.php(51): App\Models\m_penyetoran->simpan(Array)
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 06:40:34 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-12-24 06:40:34 --> Duplicate entry '0' for key 'PRIMARY'
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_penyetoran.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Penyetoran.php(51): App\Models\m_penyetoran->simpan(Array)
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 08:19:15 --> Column 'tarikId' cannot be null
+CRITICAL - 2021-12-24 08:19:15 --> Column 'tarikId' cannot be null
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_penarikan.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Penarikan.php(51): App\Models\m_penarikan->simpan(Array)
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Penarikan->simpan()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penarikan))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-24 08:21:12 --> Undefined property: App\Controllers\nasabah::$roles
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Nasabah.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/manuruli/...', 97, Array)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->edit('3')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\nasabah))
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-24 09:23:54 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-12-24 09:23:54 --> Duplicate entry '0' for key 'PRIMARY'
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_penyetoran.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Penyetoran.php(51): App\Models\m_penyetoran->simpan(Array)
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 09:27:31 --> Column 'adminId' cannot be null
+CRITICAL - 2021-12-24 09:27:31 --> Column 'adminId' cannot be null
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_admin.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Admin.php(61): App\Models\m_admin->simpan(Array)
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->simpan()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 09:29:26 --> Column 'adminId' cannot be null
+CRITICAL - 2021-12-24 09:29:26 --> Column 'adminId' cannot be null
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_admin.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Admin.php(61): App\Models\m_admin->simpan(Array)
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->simpan()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 09:29:45 --> Column 'adminId' cannot be null
+CRITICAL - 2021-12-24 09:29:45 --> Column 'adminId' cannot be null
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_admin.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Admin.php(61): App\Models\m_admin->simpan(Array)
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->simpan()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 09:30:12 --> Column 'nama' cannot be null
+CRITICAL - 2021-12-24 09:30:12 --> Column 'nama' cannot be null
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_admin.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Admin.php(61): App\Models\m_admin->simpan(Array)
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->simpan()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 09:31:00 --> Column 'nama' cannot be null
+CRITICAL - 2021-12-24 09:31:00 --> Column 'nama' cannot be null
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_admin.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Admin.php(61): App\Models\m_admin->simpan(Array)
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->simpan()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 09:31:20 --> Column 'adminId' cannot be null
+CRITICAL - 2021-12-24 09:31:20 --> Column 'adminId' cannot be null
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_admin.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Admin.php(61): App\Models\m_admin->simpan(Array)
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->simpan()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 23:50:35 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-12-24 23:50:35 --> Duplicate entry '0' for key 'PRIMARY'
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_penyetoran.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Penyetoran.php(51): App\Models\m_penyetoran->simpan(Array)
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-24 23:51:11 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-12-24 23:51:11 --> Duplicate entry '0' for key 'PRIMARY'
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_penarikan.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Penarikan.php(51): App\Models\m_penarikan->simpan(Array)
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Penarikan->simpan()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penarikan))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

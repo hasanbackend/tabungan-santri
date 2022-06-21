@@ -1,0 +1,2 @@
+untuk login username dan password sama, bisa di lihat di database
+rubah env menjadi .env sebelum menggunakan

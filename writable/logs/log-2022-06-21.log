@@ -1,0 +1,194 @@
+ERROR - 2022-06-21 01:06:50 --> Unknown column 'setorId' in 'field list'
+CRITICAL - 2022-06-21 01:06:50 --> Unknown column 'setorId' in 'field list'
+#0 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tabungan-santri\app\Models\m_nasabah.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tabungan-santri\app\Controllers\Penyetoran.php(50): App\Models\m_nasabah->simpan(Array)
+#6 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tabungan-santri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-21 01:08:26 --> Unknown column 'setorId' in 'field list'
+CRITICAL - 2022-06-21 01:08:26 --> Unknown column 'setorId' in 'field list'
+#0 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tabungan-santri\app\Models\m_nasabah.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tabungan-santri\app\Controllers\Penyetoran.php(50): App\Models\m_nasabah->simpan(Array)
+#6 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tabungan-santri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-21 01:09:33 --> Unknown column 'setorId' in 'field list'
+CRITICAL - 2022-06-21 01:09:33 --> Unknown column 'setorId' in 'field list'
+#0 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tabungan-santri\app\Models\m_nasabah.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tabungan-santri\app\Controllers\Penyetoran.php(50): App\Models\m_nasabah->simpan(Array)
+#6 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tabungan-santri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-21 01:20:25 --> Unknown column 'setorId' in 'field list'
+CRITICAL - 2022-06-21 01:20:25 --> Unknown column 'setorId' in 'field list'
+#0 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tabungan-santri\app\Models\m_nasabah.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tabungan-santri\app\Controllers\Penyetoran.php(50): App\Models\m_nasabah->simpan(Array)
+#6 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tabungan-santri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-21 01:23:54 --> Unknown column 'setorId' in 'field list'
+CRITICAL - 2022-06-21 01:23:54 --> Unknown column 'setorId' in 'field list'
+#0 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tabungan-santri\app\Models\m_nasabah.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tabungan-santri\app\Controllers\Penyetoran.php(50): App\Models\m_nasabah->simpan(Array)
+#6 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tabungan-santri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-21 01:29:13 --> Unknown column 'setorId' in 'field list'
+CRITICAL - 2022-06-21 01:29:13 --> Unknown column 'setorId' in 'field list'
+#0 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tabungan-santri\app\Models\m_nasabah.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tabungan-santri\app\Controllers\Penyetoran.php(52): App\Models\m_nasabah->simpan(Array)
+#6 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tabungan-santri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-21 01:29:58 --> Unknown column 'jumlah' in 'field list'
+CRITICAL - 2022-06-21 01:29:58 --> Unknown column 'jumlah' in 'field list'
+#0 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tabungan-santri\app\Models\m_nasabah.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tabungan-santri\app\Controllers\Penyetoran.php(52): App\Models\m_nasabah->simpan(Array)
+#6 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tabungan-santri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-21 01:35:34 --> Unknown column 'jumlah' in 'field list'
+CRITICAL - 2022-06-21 01:35:34 --> Unknown column 'jumlah' in 'field list'
+#0 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tabungan-santri\app\Models\m_nasabah.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tabungan-santri\app\Controllers\Penyetoran.php(52): App\Models\m_nasabah->simpan(Array)
+#6 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tabungan-santri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-21 01:41:26 --> Unknown column 'jumlah' in 'field list'
+CRITICAL - 2022-06-21 01:41:26 --> Unknown column 'jumlah' in 'field list'
+#0 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tabungan-santri\app\Models\m_nasabah.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tabungan-santri\app\Controllers\Penyetoran.php(52): App\Models\m_nasabah->simpan(Array)
+#6 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tabungan-santri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-21 01:42:29 --> Unknown column 'setorId' in 'field list'
+CRITICAL - 2022-06-21 01:42:29 --> Unknown column 'setorId' in 'field list'
+#0 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tabungan-santri\app\Models\m_nasabah.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tabungan-santri\app\Controllers\Penyetoran.php(52): App\Models\m_nasabah->simpan(Array)
+#6 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tabungan-santri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-21 01:42:50 --> Unknown column 'setorId' in 'field list'
+CRITICAL - 2022-06-21 01:42:50 --> Unknown column 'setorId' in 'field list'
+#0 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tabungan-santri\app\Models\m_nasabah.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tabungan-santri\app\Controllers\Penyetoran.php(52): App\Models\m_nasabah->simpan(Array)
+#6 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tabungan-santri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-21 01:42:58 --> Unknown column 'setorId' in 'field list'
+CRITICAL - 2022-06-21 01:42:58 --> Unknown column 'setorId' in 'field list'
+#0 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tabungan-santri\app\Models\m_nasabah.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tabungan-santri\app\Controllers\Penyetoran.php(52): App\Models\m_nasabah->simpan(Array)
+#6 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tabungan-santri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-21 01:47:03 --> Unknown column 'setorId' in 'field list'
+CRITICAL - 2022-06-21 01:47:03 --> Unknown column 'setorId' in 'field list'
+#0 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tabungan-santri\app\Models\m_nasabah.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tabungan-santri\app\Controllers\Penyetoran.php(52): App\Models\m_nasabah->simpan(Array)
+#6 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\penyetoran->simpan()
+#7 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\penyetoran))
+#8 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tabungan-santri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-06-21 02:07:57 --> Undefined variable: i
+#0 C:\xampp\htdocs\tabungan-santri\app\Views\penarikan\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('penarikan/index', Array, true)
+#4 C:\xampp\htdocs\tabungan-santri\app\Controllers\Penarikan.php(24): view('penarikan/index', Array)
+#5 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Penarikan->index()
+#6 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penarikan))
+#7 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tabungan-santri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tabungan-santri\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

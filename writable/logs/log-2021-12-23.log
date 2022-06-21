@@ -1,0 +1,26 @@
+ERROR - 2021-12-23 21:01:26 --> Table 'manuruli_db_saver.view_admin' doesn't exist
+CRITICAL - 2021-12-23 21:01:26 --> Table 'manuruli_db_saver.view_admin' doesn't exist
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_admin.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Admin.php(20): App\Models\m_admin->getAllData()
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->index()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-23 21:01:56 --> Table 'manuruli_db_saver.view_admin' doesn't exist
+CRITICAL - 2021-12-23 21:01:56 --> Table 'manuruli_db_saver.view_admin' doesn't exist
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Models/m_admin.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Admin.php(20): App\Models\m_admin->getAllData()
+#6 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\admin->index()
+#7 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#8 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

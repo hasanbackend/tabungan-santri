@@ -1,0 +1,7 @@
+CRITICAL - 2021-12-25 01:42:06 --> Undefined property: App\Controllers\nasabah::$roles
+#0 /home/manuruli/tabungan.manuruliman-clp.sch.id/app/Controllers/Nasabah.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/manuruli/...', 97, Array)
+#1 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\nasabah->edit('1')
+#2 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\nasabah))
+#3 /home/manuruli/tabungan.manuruliman-clp.sch.id/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/manuruli/public_html/tabungan/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
